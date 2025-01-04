@@ -83,7 +83,7 @@ const Hero = () => {
         <div>
           <img
             className="absolute bottom-0 ml-[50vw]  overflow-hidden translate-x-[125]]
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[80vw]
+            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[60vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={swikar}
             alt="swikar"
