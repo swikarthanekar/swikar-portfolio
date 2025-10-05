@@ -1,116 +1,120 @@
-# f8n: AI-Powered Investment Analytics & Portfolio Agent Suite 📈🤖
+# f8n
 
-<p align="center">
-  <img src="https://f8n.vercel.app/f8n.svg" alt="f8n Logo" width="100"/>
-</p>
+[![Deployment Status](https://vercel.com/static/image?imageSource=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fv1662134559%2Frepositories%2Fgithub%2Fvercel%2Fvercel%2Fvercel-motion.png&width=1200&color=000000&text=Deployed%20on%20Vercel&branding=false&bgColor=000000&borderColor=000000&logoColor=ffffff&textColor=ffffff)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Ff8n)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Deployed with Vercel](https://vercel.com/button)](https://f8n.vercel.app/)
-[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=flat&logo=next.js)](https://nextjs.org/)
-[![API Integration](https://img.shields.io/badge/Data%20Source-Upstox%20API-blue)](https://upstox.com/developer/api-documentation/)
+f8n is a modern portfolio dashboard and investment-tracking platform designed for users of Upstox, India's leading stock brokerage platform. It provides real-time insights into your investments, asset allocation, performance metrics, and more. With AI-powered agents for analysis, comparisons, sentiment tracking, and recommendations, f8n simplifies financial decision-making.
 
----
+Whether you're a beginner investor or a seasoned trader, f8n aggregates your data, visualizes trends, and delivers actionable intelligence—all in one intuitive interface.
 
-## ⭐️ Overview
+## ✨ Features
 
-**f8n** is a sophisticated, agent-driven platform providing **AI-enhanced investment analytics** and a comprehensive **Portfolio Dashboard**. It is designed for modern investors who require deep insights, real-time tracking, and specialized analysis across their holdings.
+- **Portfolio Dashboard**: Track your overall portfolio value, gains/losses, asset allocation (e.g., stocks, bonds, mutual funds), top holdings, and recent transactions.
+- **Real-Time Data Integration**: Connect your Upstox account via access token to fetch live market data. Fallback to sample data for demo purposes.
+- **AI-Powered Agents**:
+  - **Mutual Funds Agent**: Analyze and track mutual fund performance.
+  - **Analysis Agent**: Deep-dive into investment analytics and trends.
+  - **Comparison Agent**: Compare stocks, funds, or portfolios side-by-side.
+  - **Watchlist Agent**: Monitor your custom watchlist with alerts and updates.
+  - **Sentiment Agent**: Gauge market sentiment from news and social signals.
+  - **Recommendations Agent**: Get personalized investment suggestions.
+  - **News Agent**: Stay updated with curated financial news and market events.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile.
+- **Secure & Private**: All data fetching is token-based; no storage of sensitive info on our servers.
 
-A key feature is its seamless integration with brokerage APIs, particularly **Upstox**, allowing users to fetch and display their real-time portfolio data, performance metrics, and transaction history by simply providing an access token.
-
----
-
-## ✨ Core Features & Agent Suite
-
-The application is structured around a powerful dashboard and a suite of dedicated analytical agents:
-
-### 📊 Portfolio Dashboard
-* **Real-time Tracking:** Display of Total Portfolio Value, Total Gain/Loss, and Today's Change.
-* **Asset Allocation:** Detailed breakdown of investments across asset classes (Stocks, Bonds, ETFs, Cash).
-* **Performance Metrics:** Visualization of portfolio value over time (e.g., 6 months).
-* **Holdings & Activity:** Lists Top Holdings and recent transactions (BUY/SELL/DIVIDEND).
-
-### 🤖 Specialized AI Agents
-The navigation includes dedicated modules for deep-dive analysis and actionable insights:
-* **Mutual Funds Agent:** Focused analysis and tracking for mutual fund investments.
-* **Analysis Agent (Stock):** Provides in-depth financial analysis for individual stocks.
-* **Comparison Agent:** Tool for benchmarking the performance of multiple assets.
-* **Watchlist Agent:** Management module for tracking and monitoring potential investments.
-* **Sentiment Agent:** Gauges market mood and sentiment from news and data sources.
-* **Recommendations Agent:** AI-driven suggestions for portfolio optimization.
-* **News Agent:** Curated financial news aggregated by relevance.
-
----
-
-## 🛠 Tech Stack
-
-f8n leverages a robust and modern development stack:
-
-* **Framework:** [Next.js](https://nextjs.org/) (React)
-* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **Data Integration:** REST APIs (Primary integration example: **Upstox API**)
-* **Deployment:** [Vercel](https://vercel.com/)
-
----
-
-## ⚙️ Getting Started
-
-Follow these steps to set up and run the project locally.
+## 🚀 Quick Start
 
 ### Prerequisites
+- A free Upstox account (for real-time data).
+- Node.js (v18+) and npm/yarn for local development.
 
-* Node.js (LTS version)
-* Git
+### Deployment
+This project is deployed on Vercel. You can fork and deploy your own instance in seconds:
 
-### Installation
+1. Click the [Deploy Button](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Ff8n) above.
+2. Connect your GitHub repo.
+3. Deploy!
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [Your-Repo-URL]
-    cd f8n
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-3.  **Set up Environment Variables:**
+### Local Setup
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/f8n.git
+   cd f8n
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
+3. Set up environment variables:
+   - Create a `.env.local` file.
+   - Add your Upstox API credentials (if integrating locally):
+     ```
+     UPSTOX_ACCESS_TOKEN=your_upstox_access_token_here
+     ```
+4. Run the development server:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-    Create a file named `.env.local` in the root directory and add the necessary configuration.
+### Usage
+1. Visit the live site: [https://f8n.vercel.app](https://f8n.vercel.app).
+2. On the Dashboard, enter your Upstox access token to connect your account (or view sample data).
+3. Navigate to agents via the sidebar for specialized insights.
+4. Customize your watchlist and set up notifications as needed.
 
-    ```env
-    # Required for real-time portfolio data integration (e.g., Upstox)
-    # The application specifically prompts for this token.
-    UPSTOX_ACCESS_TOKEN="YOUR_UPSTOX_API_TOKEN"
+## 🛠️ Technologies
 
-    # Optional: For powering the AI Agent functionality
-    OPENAI_API_KEY="YOUR_GPT_MODEL_KEY" 
-    ```
-    ***Note:** If the access token is not provided, the dashboard will gracefully display sample data.*
+- **Frontend**: Next.js (React-based) with Tailwind CSS for styling.
+- **Data Fetching**: Upstox API integration for real-time stock/mutual fund data.
+- **AI/ML**: Custom agents powered by [OpenAI API](https://openai.com) or similar for sentiment, recommendations, and analysis.
+- **Deployment**: Vercel for hosting and CI/CD.
+- **Other**: Chart.js for visualizations, Axios for API calls.
 
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
+## 📊 Dashboard Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
-
----
+| Section          | Description                          |
+|------------------|--------------------------------------|
+| **Portfolio Value** | Current total value and 24h change. |
+| **Gains/Losses** | Overall P&L with pie chart breakdown. |
+| **Asset Allocation** | Bar chart showing stocks, bonds, etc. |
+| **Top Holdings** | Table of your largest positions.    |
+| **Recent Transactions** | List of buys/sells with timestamps. |
 
 ## 🤝 Contributing
 
-We welcome contributions to enhance the f8n platform. Please follow the standard workflow:
+Contributions are welcome! Please follow these steps:
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/NewAgent`)
-3.  Commit your Changes (`git commit -m 'Feat: Added new Market Agent'`)
-4.  Push to the Branch (`git push origin feature/NewAgent`)
-5.  Open a Pull Request
+1. Fork the project.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ using Next.js and Vercel.
+- Thanks to Upstox for the robust API.
+- Shoutout to the open-source community for libraries like Chart.js and Tailwind.
 
 ---
 
-## 📝 License
+*Made with [Vercel](https://vercel.com) and [Next.js](https://nextjs.org). Deploy your own in minutes! 🚀*
 
-Distributed under the MIT License. See `LICENSE` for more information.
+---
+
+To download this README.md file:
+1. Copy the content above.
+2. Paste it into a new file named `README.md`.
+3. Save it to your project root.
+
+(Replace placeholders like `yourusername` with actual repo details if forking.)
