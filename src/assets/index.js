@@ -58,6 +58,7 @@ import microverse from './company/microverse.png';
 import codingninjas from './company/codingninjas.png';
 import cyborg from './company/cyborg.png';
 import rapidrasoi from './company/rapidrasoi.png';
+import BGSW from './company/bosch_global_software_technologies_logo.jpg';
 import microros from './tech/microros.png';
 import rviz from './tech/rviz.png';
 
@@ -139,5 +140,6 @@ export {
   codingninjas,
   cyborg,
   rapidrasoi,
+  BGSW,
   microros,
 };
