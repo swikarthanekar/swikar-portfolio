@@ -138,6 +138,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'SDE Intern',
+    company_name: 'Bosch Global Software Technologies',
+    icon: cyborg,
+    iconBg: '#333333',
+    date: 'May 2025 - July 2025',
+  },
+  {
     title: 'Robotics Member',
     company_name: 'Cyborg-Robotics and Automation Club of NIT Rourkela',
     icon: cyborg,
