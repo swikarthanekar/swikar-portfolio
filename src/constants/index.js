@@ -147,7 +147,7 @@ const experiences = [
   },
   {
     title: 'Robotics Member',
-    company_name: 'Cyborg Robotics and Automation Club of NIT Rourkela',
+    company_name: 'Cyborg (Official Robotics and Automation Club of NIT Rourkela)',
     icon: cyborg,
     iconBg: '#333333',
     date: 'May 2024 - Present',
