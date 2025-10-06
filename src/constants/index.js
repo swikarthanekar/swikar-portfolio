@@ -47,6 +47,7 @@ import {
   rapidrasoi,
   microros,
   cyborg,
+  BGSW,
 } from '../assets';
 
 export const navLinks = [
