@@ -141,7 +141,7 @@ const experiences = [
   {
     title: 'SDE Intern',
     company_name: 'Bosch Global Software Technologies',
-    icon: cyborg,
+    icon: BGSW,
     iconBg: '#333333',
     date: 'May 2025 - July 2025',
   },
