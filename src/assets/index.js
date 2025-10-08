@@ -71,6 +71,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import kinect from './projects/kinect.png';
 import petbot from './projects/petbot.png';
+import smart_sentry from './projects/smart_sentry.jpg';
 
 
 
@@ -131,6 +132,7 @@ export {
   nyeusi,
   kinect,
   petbot,
+  smart_sentry,
   space,
   gazebo,
   coverhunt,
@@ -143,3 +145,4 @@ export {
   BGSW,
   microros,
 };
+
