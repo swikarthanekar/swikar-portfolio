@@ -213,7 +213,6 @@ const projects = [
     ],
     image: petbot,
     repo: '',
-    demo: '',
   },
   {
     id: 'project-3',
@@ -235,7 +234,6 @@ const projects = [
     ],
     image: smart_sentry,
     repo: 'https://github.com/swikarthanekar/Smart-Sentry-IOT.git',
-    demo: '',
   },
   {
     id: 'project-4',
@@ -257,7 +255,6 @@ const projects = [
     ],
     image: fuel_blend,
     repo: 'https://github.com/swikarthanekar/Fuel-Blend-Prediction.git',
-    demo: '',
   },
 ];
 
