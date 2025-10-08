@@ -39,6 +39,7 @@ import {
   space,
   petbot,
   smart_sentry,
+  fuel_blend,
   kinect,
   coverhunt,
   gazebo,
@@ -234,6 +235,28 @@ const projects = [
     ],
     image: smart_sentry,
     repo: 'https://github.com/swikarthanekar/Smart-Sentry-IOT.git',
+    demo: '',
+  },
+  {
+    id: 'project-4',
+    name: 'Fuel-Blend-Prediction',
+    description: 'This project predicts the properties of sustainable fuel blends (like aviation fuels) from their components and proportions using machine-learning (LightGBM, XGBoost, stacking) to help design environmentally compliant blends.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: fuel_blend,
+    repo: 'https://github.com/swikarthanekar/Fuel-Blend-Prediction.git',
     demo: '',
   },
 ];
