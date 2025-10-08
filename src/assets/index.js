@@ -72,7 +72,7 @@ import space from './projects/space-hub.png';
 import kinect from './projects/kinect.png';
 import petbot from './projects/petbot.png';
 import smart_sentry from './projects/smart_sentry.jpg';
-
+import fuel_blend from './projects/smart_sentry.jpg';
 
 
 
@@ -145,4 +145,5 @@ export {
   BGSW,
   microros,
 };
+
 
