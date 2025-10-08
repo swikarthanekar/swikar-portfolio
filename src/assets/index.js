@@ -72,7 +72,7 @@ import space from './projects/space-hub.png';
 import kinect from './projects/kinect.png';
 import petbot from './projects/petbot.png';
 import smart_sentry from './projects/smart_sentry.jpg';
-import fuel_blend from './projects/smart_sentry.jpg';
+import fuel_blend from './projects/fuel_blend.jpg';
 
 
 
@@ -133,6 +133,7 @@ export {
   kinect,
   petbot,
   smart_sentry,
+  fuel_blend,
   space,
   gazebo,
   coverhunt,
@@ -145,5 +146,6 @@ export {
   BGSW,
   microros,
 };
+
 
 
