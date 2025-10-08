@@ -213,6 +213,28 @@ const projects = [
     repo: '',
     demo: '',
   },
+  {
+    id: 'project-3',
+    name: 'Smart-Sentry-IOT',
+    description: 'Smart Sentry is a real-time, phase-aware anomaly-detection platform for industrial assets that identifies operational phases (startup / steady-state / shutdown) and applies phase-specific IsolationForest models to reduce false positives.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: petbot,
+    repo: '',
+    demo: '',
+  },
 ];
 
 export { services, technologies, experiences, projects };
