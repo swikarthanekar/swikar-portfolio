@@ -233,7 +233,7 @@ const projects = [
       },
     ],
     image: smart_sentry,
-    repo: '',
+    repo: 'https://github.com/swikarthanekar/Smart-Sentry-IOT.git',
     demo: '',
   },
 ];
